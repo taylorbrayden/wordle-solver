@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(132, 207, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-box {
+    background-color: rgb(240, 248, 255);
+    margin: auto;
+    max-width: 400px;
+}
+
+div {
+    border: 1px dashed;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(240, 248, 255);
+    font-size: 3rem;
+    margin: 20px auto;
+}
