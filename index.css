@@ -5,6 +5,8 @@ body {
 
 .input-box {
     background-color: rgb(240, 248, 255);
+    border-radius: 5%;
+    height: 400px;
     margin: auto;
     max-width: 400px;
 }
@@ -19,5 +21,8 @@ div {
 h1 {
     color: rgb(240, 248, 255);
     font-size: 3rem;
-    margin: 20px auto;
+}
+
+h2 {
+    color: rgb(240, 248, 255);
 }
