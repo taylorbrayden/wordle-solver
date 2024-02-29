@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: rgb(168, 216, 153);
+    background-color: rgb(106, 211, 162);
 }
 
 .input-box {
@@ -15,31 +15,66 @@ body {
     border-radius: 20px;
     height: 600px;
     margin: auto;
-    padding: 0;
+    padding: 10px 30px;
     max-width: 400px;
     box-shadow: 5px 5px 5px 2px gray ;
 }
 
 .input-one {
-    height: 200px;
-    margin: 0;
+    height: 150px;
+    margin: 10px;
     padding: 10px;
+    text-align: left;
 }
 
 .input-two {
-    height: 200px;
-    margin: 0;
+    height: 150px;
+    margin: 10px;
     padding: 10px;
+    text-align: left;
 }
 
 .input-three {
-    height: 200px;
-    margin: 0;
+    height: 150px;
+    margin: 10px;
     padding: 10px;
+    text-align: left;
+}
+
+.input-button {
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    margin: auto;
+    background-color: gold;
+    font-size: 20px;
+    border: 0;
+}
+
+.letter-input-box {
+    border-radius: 4px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size:36px;
+    text-align: center;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.excluded-input-box {
+    border-radius: 4px;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    font-size:36px;
+    text-align: center;
+    margin: 10px 0;
+    border: 1px solid black;
 }
 
 .nav-bar-ul {
-    border-radius: 5px 5px 15px 15px;
+    border-radius: 0px 0px 15px 15px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -62,9 +97,6 @@ body {
 }
 
 div {
-
-    margin: 5px;
-    padding: 5px;
     text-align: center;
 }
 
