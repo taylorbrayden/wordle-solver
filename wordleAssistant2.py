@@ -120,6 +120,8 @@ for word in yellowCheckWords2:
 # At this point, this is all possible answers, but I do still want to incorporate most information
 # as well as the frequency of the words, just to filter them out a bit
 print(blackCheckWords[0:100])
+if len(blackCheckWords) > 100:
+    print("...")
 
 # Finding most information can be done by skipping over green letters using possiblePositions again
 # I would check the answers (blackCheckWords) and give each letter a point, while skipping greens
